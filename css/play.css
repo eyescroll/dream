@@ -28,8 +28,16 @@ h1 a, h2 a {
 
 img {
   width:100%;
-  font-family: verdana, sans-serif;
-  text-align: center;
+border:1px solid gray;
+display:block;
+}
+
+img.portrait {
+/* width:60%;
+margin: 12px auto; */
+float: none;
+width:100%;
+margin-left: 0;
 }
 
 
@@ -267,6 +275,14 @@ margin: 0 12px 0 60px;
 
 p.prose {
   margin-bottom: 12px;
+}
+
+img.portrait {
+/* width:60%;
+margin: 12px auto; */
+float: right;
+width:30%;
+margin-left: 12px;
 }
 
 }
